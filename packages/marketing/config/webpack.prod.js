@@ -17,7 +17,7 @@ const prodConfig = {
             exposes: {
                 './lib': './src/bootstrap'
             },
-            shared: packageJson.dependencies
+            shared: packageJson.dependencies,
         })
     ]
 }
